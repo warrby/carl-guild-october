@@ -19,7 +19,7 @@ def update_task(data):
 
 @app.route('/')
 def index():
-    return "Tasks API!"
+    return "Task API."
 
 @app.route('/api')
 @app.route('/api/getTasks')
